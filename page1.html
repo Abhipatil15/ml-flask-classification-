@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Loan Fully Paid Or Not Paid Prediction </title>
+    </head>
+<body>
+    <div align="center">
+        <form method="post" action="getpredict">
+            <table>
+                <tr>
+                    <td>credit_policy</td>
+                    <td><select class="form-control" name="credit_policy" placeholder="enter credit policy" required>
+                    <option class="placeholder" selected disabled value="">select credit policy type</option>
+                    <option value="1">1</option>
+                    <option value="0">0</option>
+                </select> </td>
+                </tr>
+                <tr>
+                    <td>purpose</td>
+                    <td><select class="form-control" name="purpose" placeholder="enter purpose" required>
+                        <option class="placeholder" selected disabled value="">select purpose</option>
+                        <option value="0.0">0</option>
+                        <option value="1.0">1</option>
+                        <option value="2.0">2</option>
+                        <option value="3.0">3</option>
+                        <option value="4.0">4</option>
+                        <option value="5.0">5</option>
+                        <option value="6.0">6</option>
+                    </select> </td>
+                </tr>
+                <tr><td>interest rate</td>
+                    <td><input type="text" name="int_rate"></td>
+                </tr>
+                <tr><td>installment</td>
+                    <td><input type="text" name="installment"></td>
+                </tr>
+                <tr><td>log annual inc</td>
+                    <td><input type="text" name="log_annual_inc"></td>
+                </tr>
+                <tr><td>dti</td>
+                    <td><input type="text" name="dti"></td>
+                </tr>
+                <tr><td>fico</td>
+                    <td><input type="text" name="fico"></td>
+                </tr>
+                <tr><td>days with cr line</td>
+                    <td><input type="text" name="days_with_cr_line"></td>
+                </tr>
+                <tr><td>revol balance</td>
+                    <td><input type="text" name="revol_bal"></td>
+                </tr>
+                <tr><td>revol util</td>
+                    <td><input type="text" name="revol_util"></td>
+                </tr>
+                <tr><td>inq last 6 months</td>
+                    <td><input type="text" name="inq_last_6mths"></td>
+                </tr>
+                <tr><td>delinq 2 years</td>
+                    <td><input type="text" name="delinq_2yrs"></td>
+                </tr>
+                <tr><td>pub rec</td>
+                    <td><input type="text" name="pub_rec"></td>
+                </tr>
+                <tr><td><input type="reset">
+                    <td><input type="submit">
+                </tr>                   
+            </table>
+        </form>
+    </div>
+</body>
+
+
+
+
+
